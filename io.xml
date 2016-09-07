@@ -1,0 +1,267 @@
+<!--
+theme name:		Io
+version:		1.0
+author:			Matt Kennedy
+email:			
+website:		
+license:		creative commons CC-BY-NC-SA
+based on:		
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system, basic, detailed, grid">
+
+		<image name="bg_color" extra="true">
+			<color>d8d8d8</color>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<path>./_inc/img/bg_color.png</path>
+		</image>
+
+		<image name="bg_help" extra="true">
+			<color>0c0c0c</color>
+			<size>0.980 0.040</size>
+			<pos>0.010 0.940</pos>
+			<origin>0 0</origin>
+			<path>./_inc/img/bg_color.png</path>
+		</image>
+			<helpsystem name="help">
+				<pos>0.020 0.950</pos>
+				<textColor>d8d8d8</textColor>
+				<iconColor>d8d8d8</iconColor>
+				<fontPath>./_inc/font/Inconsolata-Regular.ttf</fontPath>
+				<fontSize>0.025</fontSize>
+			</helpsystem>
+		
+	</view>
+	
+	<view name="system">
+
+		<image name="bg_color" extra="true">
+			<color>0c0c0c</color>
+		</image>
+
+	</view>
+
+	<view name="basic">
+
+		<image name="bg_logo" extra="true">
+			<color>0c0c0c</color>
+			<size>0.980 0.200</size>
+			<pos>0.010 0.020</pos>
+			<origin>0 0</origin>
+			<path>./_inc/img/bg_color.png</path>
+		</image>
+			<image name="logo">
+				<maxSize>0.260 0.160</maxSize>
+				<pos>0.500 0.120</pos>
+				<origin>0.5 0.5</origin>
+			</image>
+
+		<image name="bg_gamelist" extra="true">
+			<path>./_inc/img/bg_color.png</path>
+			<size>0.980 0.680</size>
+			<pos>0.010 0.240</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<textlist name="gamelist">
+				<selectorColor>d8d8d8</selectorColor>
+				<selectedColor>0c0c0c</selectedColor>
+				<primaryColor>d8d8d8</primaryColor>
+				<secondaryColor>d8d8d8</secondaryColor>
+				<fontPath>./_inc/font/Inconsolata-Regular.ttf</fontPath>
+				<size>0.960 0.640</size>
+				<pos>0.020 0.260</pos>
+				<fontSize>0.04</fontSize>
+				<lineSpacing>1.6</lineSpacing>
+			</textlist>
+
+	</view>
+
+	<view name="detailed">
+
+		<image name="bg_logo" extra="true">
+			<path>./_inc/img/bg_color.png</path>
+			<size>0.280 0.200</size>
+			<pos>0.010 0.020</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<image name="logo">
+				<maxSize>0.260 0.160</maxSize>
+				<pos>0.150 0.120</pos>
+				<origin>0.5 0.5</origin>
+			</image>
+
+		<image name="bg_gamelist" extra="true">
+			<path>./_inc/img/bg_color.png</path>
+			<size>0.280 0.680</size>
+			<pos>0.010 0.240</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<textlist name="gamelist">
+				<selectorColor>d8d8d8</selectorColor>
+				<selectedColor>0c0c0c</selectedColor>
+				<primaryColor>d8d8d8</primaryColor>
+				<secondaryColor>d8d8d8</secondaryColor>
+				<size>0.260 0.640</size>
+				<pos>0.020 0.260</pos>
+				<fontPath>./_inc/font/Inconsolata-Regular.ttf</fontPath>
+				<fontSize>0.04</fontSize>
+				<lineSpacing>1.6</lineSpacing>
+				<horizontalMargin>0.01</horizontalMargin>
+			</textlist>
+
+		<image name="bg_rating" extra="true">
+			<path>./_inc/img/bg_color.png</path>
+			<size>0.240 0.100</size>
+			<pos>0.300 0.020</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<rating name="md_rating">
+				<size>0.220 0.070</size>
+				<pos>0.325 0.035</pos>
+				<filledPath>./_inc/img/rating_full.svg</filledPath>
+				<unfilledPath>./_inc/img/rating_hollow.svg</unfilledPath>
+			</rating>
+				<text name="md_lbl_rating">
+					<fontSize>0</fontSize>
+				</text>
+
+		<image name="bg_desc" extra="true">
+			<path>./_inc/img/bg_color.png</path>
+			<size>0.240 0.780</size>
+			<pos>0.300 0.140</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<text name="md_description">
+				<size>0.220 0.760</size>
+				<pos>0.310 0.160</pos>
+				<color>d8d8d8</color>
+				<fontPath>./_inc/font/Inconsolata-Regular.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+			</text>
+
+		<image name="bg_image" extra="true">
+			<path>./_inc/img/bg_color.png</path>
+			<size>0.440 0.780</size>
+			<pos>0.550 0.020</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<image name="md_image">
+				<maxSize>0.420 0.740</maxSize>
+				<pos>0.770 0.410</pos>
+				<origin>0.5 0.5</origin>
+			</image>
+
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount">
+			<size>0.44 0.04</size>
+			<color>d8d8d8</color>
+			<fontPath>./_inc/font/Inconsolata-Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</text>
+		<datetime name="md_releasedate, md_lastplayed">
+			<size>0.44 0.04</size>
+			<color>d8d8d8</color>
+			<fontPath>./_inc/font/Inconsolata-Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</datetime>
+
+			<image name="bg_meta_players" extra="true">
+				<path>./_inc/img/bg_color.png</path>
+				<size>0.090 0.040</size>
+				<pos>0.550 0.820</pos>
+				<origin>0 0</origin>
+				<color>0c0c0c</color>
+			</image>
+				<text name="md_lbl_players">
+					<pos>0.560 0.820</pos>
+				</text>
+				<text name="md_players">
+					<pos>0.620 0.820</pos>
+				</text>
+
+			<image name="bg_meta_releasedate" extra="true">
+				<path>./_inc/img/bg_color.png</path>
+				<size>0.090 0.040</size>
+				<pos>0.650 0.820</pos>
+				<origin>0 0</origin>
+				<color>0c0c0c</color>
+			</image>
+				<datetime name="md_releasedate">
+					<pos>0.660 0.820</pos>
+				</datetime>
+
+			<image name="bg_meta_playcount" extra="true">
+				<path>./_inc/img/bg_color.png</path>
+				<size>0.080 0.040</size>
+				<pos>0.750 0.820</pos>
+				<origin>0 0</origin>
+				<color>0c0c0c</color>
+			</image>
+				<text name="md_lbl_playcount">
+					<pos>0.760 0.820</pos>
+					<text>Played:</text>
+				</text>
+				<text name="md_playcount">
+					<pos>0.810 0.820</pos>
+				</text>
+
+			<image name="bg_meta_lastplayed" extra="true">
+				<path>./_inc/img/bg_color.png</path>
+				<size>0.150 0.040</size>
+				<pos>0.840 0.820</pos>
+				<origin>0 0</origin>
+				<color>0c0c0c</color>
+			</image>
+				<text name="md_lbl_lastplayed">
+					<pos>0.850 0.820</pos>
+				</text>
+				<datetime name="md_lastplayed">
+					<pos>0.940 0.820</pos>
+				</datetime>
+
+			<image name="bg_meta_genre" extra="true">
+				<path>./_inc/img/bg_color.png</path>
+				<size>0.220 0.040</size>
+				<pos>0.550 0.880</pos>
+				<origin>0 0</origin>
+				<color>0c0c0c</color>
+			</image>
+				<text name="md_lbl_genre">
+					<pos>0.560 0.880</pos>
+				</text>
+				<text name="md_genre">
+					<pos>0.610 0.880</pos>
+				</text>
+
+			<image name="bg_meta_developer" extra="true">
+				<path>./_inc/img/bg_color.png</path>
+				<size>0.210 0.040</size>
+				<pos>0.780 0.880</pos>
+				<origin>0 0</origin>
+				<color>0c0c0c</color>
+			</image>
+				<text name="md_lbl_developer">
+					<pos>0.790 0.880</pos>
+					<text>Dev:</text>
+				</text>
+				<text name="md_developer">
+					<pos>0.8250 0.880</pos>
+				</text>
+
+				<text name="md_lbl_releasedate, md_lbl_publisher, md_publisher">
+					<fontSize>0</fontSize>
+				</text>
+
+	</view>
+	
+</theme>
