@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../io.xml</include>
+
+	<view name="system">
+
+		<image name="logo">
+			<path>./system-black.svg</path>
+		</image>
+
+	</view>
+
+	<view name="basic, detailed">
+
+		<image name="logo">
+			<path>./system-white.svg</path>
+		</image>
+
+	</view>
+	
+</theme>
