@@ -11,8 +11,9 @@ license:		creative commons CC-BY-NC-SA
 
 	<formatVersion>4</formatVersion>
 
-	<!-- <include>./_inc/templates/small.xml</include> -->
-	<!-- <include>./_inc/templates/medium.xml</include> -->
+	<!--
+		To choose which size you want to use, change the include to point to either 'small', 'medium' or 'large'.
+	-->
 	<include>./_inc/templates/large.xml</include>
 
 </theme>
