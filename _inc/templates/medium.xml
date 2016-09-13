@@ -1,0 +1,165 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<view name="system, basic, detailed, grid">
+
+		<image name="bg_color" extra="true">
+			<color>d8d8d8</color>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<path>./../img/bg_color.png</path>
+		</image>
+
+		<image name="bg_help" extra="true">
+			<color>0c0c0c</color>
+			<size>0.980 0.040</size>
+			<pos>0.010 0.940</pos>
+			<origin>0 0</origin>
+			<path>./../img/bg_color.png</path>
+		</image>
+			<helpsystem name="help">
+				<pos>0.020 0.950</pos>
+				<textColor>d8d8d8</textColor>
+				<iconColor>d8d8d8</iconColor>
+				<fontPath>./../font/Inconsolata-Regular.ttf</fontPath>
+				<fontSize>0.025</fontSize>
+			</helpsystem>
+		
+	</view>
+	
+	<view name="system">
+
+		<image name="bg_color" extra="true">
+			<color>0c0c0c</color>
+		</image>
+
+	</view>
+
+	<view name="basic">
+
+		<image name="bg_logo" extra="true">
+			<color>0c0c0c</color>
+			<size>0.980 0.160</size>
+			<pos>0.010 0.020</pos>
+			<origin>0 0</origin>
+			<path>./../img/bg_color.png</path>
+		</image>
+			<image name="logo">
+				<maxSize>0.300 0.120</maxSize>
+				<pos>0.500 0.100</pos>
+				<origin>0.5 0.5</origin>
+			</image>
+
+		<image name="bg_gamelist" extra="true">
+			<path>./../img/bg_color.png</path>
+			<size>0.980 0.720</size>
+			<pos>0.010 0.200</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<textlist name="gamelist">
+				<selectorColor>d8d8d8</selectorColor>
+				<selectedColor>0c0c0c</selectedColor>
+				<primaryColor>d8d8d8</primaryColor>
+				<secondaryColor>d8d8d8</secondaryColor>
+				<fontPath>./../font/Inconsolata-Regular.ttf</fontPath>
+				<size>0.960 0.680</size>
+				<pos>0.020 0.220</pos>
+				<fontSize>0.04</fontSize>
+				<lineSpacing>1.6</lineSpacing>
+			</textlist>
+
+	</view>
+
+	<view name="detailed">
+
+		<image name="bg_logo" extra="true">
+			<path>./../img/bg_color.png</path>
+			<size>0.500 0.160</size>
+			<pos>0.010 0.020</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<image name="logo">
+				<maxSize>0.480 0.120</maxSize>
+				<pos>0.260 0.100</pos>
+				<origin>0.5 0.5</origin>
+			</image>
+
+		<image name="bg_gamelist" extra="true">
+			<path>./../img/bg_color.png</path>
+			<size>0.500 0.720</size>
+			<pos>0.010 0.200</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<textlist name="gamelist">
+				<selectorColor>d8d8d8</selectorColor>
+				<selectedColor>0c0c0c</selectedColor>
+				<primaryColor>d8d8d8</primaryColor>
+				<secondaryColor>d8d8d8</secondaryColor>
+				<size>0.480 0.680</size>
+				<pos>0.020 0.220</pos>
+				<fontPath>./../font/Inconsolata-Regular.ttf</fontPath>
+				<fontSize>0.04</fontSize>
+				<lineSpacing>1.6</lineSpacing>
+				<horizontalMargin>0.01</horizontalMargin>
+			</textlist>
+
+		<image name="bg_image" extra="true">
+			<path>./../img/bg_color.png</path>
+			<size>0.470 0.840</size>
+			<pos>0.520 0.020</pos>
+			<origin>0 0</origin>
+			<color>0c0c0c</color>
+		</image>
+			<image name="md_image">
+				<maxSize>0.450 0.800</maxSize>
+				<pos>0.755 0.440</pos>
+				<origin>0.5 0.5</origin>
+			</image>
+
+		<text name="md_lbl_genre, md_lbl_players, md_genre, md_players">
+			<size>0.44 0.04</size>
+			<color>d8d8d8</color>
+			<fontPath>./../font/Inconsolata-Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</text>
+
+			<image name="bg_meta_players" extra="true">
+				<path>./../img/bg_color.png</path>
+				<size>0.090 0.040</size>
+				<pos>0.520 0.880</pos>
+				<origin>0 0</origin>
+				<color>0c0c0c</color>
+			</image>
+				<text name="md_lbl_players">
+					<pos>0.530 0.880</pos>
+				</text>
+				<text name="md_players">
+					<pos>0.590 0.880</pos>
+				</text>
+
+			<image name="bg_meta_genre" extra="true">
+				<path>./../img/bg_color.png</path>
+				<size>0.370 0.040</size>
+				<pos>0.620 0.880</pos>
+				<origin>0 0</origin>
+				<color>0c0c0c</color>
+			</image>
+				<text name="md_lbl_genre">
+					<pos>0.630 0.880</pos>
+				</text>
+				<text name="md_genre">
+					<pos>0.680 0.880</pos>
+				</text>
+
+				<text name="md_lbl_rating, md_rating, md_lbl_releasedate, md_releasedate, md_lbl_publisher, md_publisher, md_description, md_lbl_developer, md_developer, md_lbl_lastplayed, md_lastplayed, md_lbl_playcount, md_playcount">
+					<pos>1 1</pos>
+				</text>
+
+	</view>
+
+</theme>
