@@ -130,7 +130,7 @@
 
 			<image name="bg_meta_players" extra="true">
 				<path>./../img/bg_color.png</path>
-				<size>0.090 0.040</size>
+				<size>0.110 0.040</size>
 				<pos>0.520 0.880</pos>
 				<origin>0 0</origin>
 				<color>0c0c0c</color>
@@ -139,21 +139,21 @@
 					<pos>0.530 0.880</pos>
 				</text>
 				<text name="md_players">
-					<pos>0.590 0.880</pos>
+					<pos>0.610 0.880</pos>
 				</text>
 
 			<image name="bg_meta_genre" extra="true">
 				<path>./../img/bg_color.png</path>
-				<size>0.370 0.040</size>
-				<pos>0.620 0.880</pos>
+				<size>0.350 0.040</size>
+				<pos>0.640 0.880</pos>
 				<origin>0 0</origin>
 				<color>0c0c0c</color>
 			</image>
 				<text name="md_lbl_genre">
-					<pos>0.630 0.880</pos>
+					<pos>0.650 0.880</pos>
 				</text>
 				<text name="md_genre">
-					<pos>0.680 0.880</pos>
+					<pos>0.710 0.880</pos>
 				</text>
 
 				<text name="md_lbl_rating, md_rating, md_lbl_releasedate, md_releasedate, md_lbl_publisher, md_publisher, md_description, md_lbl_developer, md_developer, md_lbl_lastplayed, md_lastplayed, md_lbl_playcount, md_playcount">
