@@ -9,8 +9,8 @@ Io is a simple black and white theme created for EmulationStation and RetroPie. 
 Io comes with 3 different sizes to deal with different sized screens:
 
 - Large is the default size for TVs and computer monitors. The Detailed View shows all metadata except for the Publisher. I had to sacrifce something for space, and that one seemed like the best to remove.
-- Medium removes most of the metadata from the Detailed View, leaving just the Image, Genre and Number of Players.
-- Small is for small screens like those in Pi-modded gameboys. The fonts are larger in both Basic and Detailed Views. Detailed View only shows the Image and the Gamelist, and the gamelist only shows 3 titles at time. The help menu has also been removed from Basic and Detailed Views to maximise available space.
+- Medium removes most of the metadata from the Detailed View, leaving just the Image, Genre and Number of Players. This has been designed play nicely on 4:3 resolutions.
+- Small is for small screens like those in Pi-modded gameboys. The fonts are larger in both Basic and Detailed Views for easier viewing on a smaller screen. Detailed View only shows the Image and the Gamelist, and the gamelist only shows 3 titles at a time. The help menu has also been removed from Basic and Detailed Views to maximise available space.
 
 To change which size is used, open io.xml and change line 17:
 ```
@@ -54,7 +54,6 @@ More images available on [Imgur](http://imgur.com/a/v1V88).
 
 ##Notes
 
-- This theme has not been tested with a 4/3 ratio, but you should be okay if you use either the Medium or Small sizes. However, you may still come across some ugliness with the metadata on the Detailed view in the Medium size.
 - This theme currently doesn't take into account either the GridView Mod, or the Child-Friendly versions of EmulationStation, but there are plans for them in the future.
 
 
